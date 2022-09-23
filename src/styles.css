@@ -1,1 +1,15 @@
 /* You can add global styles to this file, and also import other style files */
+h1 {
+  color: black;
+  font-size: 120px;
+  font-weight: 700;
+  text-align: center;
+  font-family: 'fantasy', 'Marker Felt', 'Luminari', 'Chalkduster', 'fantasy';
+}
+
+body {
+  background-image: url('https://iili.io/iRCOwG.md.jpg" alt="iRCOwG.md.jpg');
+  background-size: cover;
+  background-position: cover;
+  position: relative;
+}
