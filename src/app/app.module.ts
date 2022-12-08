@@ -5,6 +5,7 @@ import { AppComponent } from './app.component';
 import { TaskInputComponent } from './task-input/task-input.component';
 import { TaskInputButtonComponent } from './task-input-button/task-input-button.component';
 import { TaskListComponent } from './task-list/task-list.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { TaskListComponent } from './task-list/task-list.component';
     TaskListComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
